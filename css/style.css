@@ -1,0 +1,115 @@
+body, h1, h5, h6, .navbar
+{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+h1
+{
+    font-weight: bolder;
+}
+.bg
+{
+   z-index: -999;
+   position: relative;
+   background-image: linear-gradient(to bottom right, red, red, yellow);
+}
+.latar
+{
+    opacity: 0.5;
+    background-color: black;
+    align-content: center;
+}
+.navbar
+{
+    position: absolute;
+    padding: 50px;
+    font-weight: bold;
+
+}
+.navbar-togler
+{
+    position: relative;
+    left: 90%;
+}
+.navbar-nav
+{
+    position: relative;
+    left: 870px;
+}
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    size: 20%;
+    color:white;
+    font-weight:bolder;
+}
+.botombol
+{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    
+}
+
+.what-we-do p
+{
+color: #999
+}
+
+section
+{
+    min-height: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+.card
+{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+}
+.btn
+{
+    width: 120px;
+    margin: 30px 20px;
+    color: white;
+    background-color: rgb(253, 155, 20);
+    font-size: 12px;
+    padding: 10px;
+}
+.btn:hover 
+{
+    color: white;
+    background-color: rgb(240, 198, 2);
+}
+i.fab
+{
+    font-size: 24px;
+    color: #aaa;
+    transition: 0.3s;
+    margin: 5px;
+    
+}
+i.fab:hover
+{
+    font-size: 26px;
+    color: #555;
+}
+footer
+{
+    padding-bottom: 100px;
+    font-size: 14px;
+    color: #aaa
+}
+.fas.fa-heart
+{
+    color: coral;
+}
