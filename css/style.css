@@ -13,7 +13,7 @@ h1
 {
    z-index: -999;
    position: relative;
-   background-image: linear-gradient(to bottom right, red, red, yellow);
+   background-image: linear-gradient(to bottom right, red, red, orange);
 }
 .latar
 {
